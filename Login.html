@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<title>Login</title>
+	</head>
+	<body>
+		<header>
+			<font color="chocolate"><marquee behavior="scroll" direction="left" scrollamount="17"><h1>Login</h1></marquee></font>
+		</header>
+		<form name="myform"  action="sucess.html" method="post" style = "background:bisque">
+			<div align="center">
+				<table>
+					<tr> <td> Username: </td>
+						<td><input type="text" name="username"  placeholder="username" id= "uname" ><span id="nameerror"> *</span><br/></td></tr>
+					<tr> <td> Pasword: </td>
+						<td><input type="password" name="password"  placeholder="password" id= "pass" ><span id="passerror"> *</span><br/></td></tr>
+					<tr><td><input type="submit" value="Login" onclick="validateForm()" ></td>
+						<td><input type="reset" value="Forget password"></td></tr>
+					</table>
+				</div>
+		</form>
+	</body>
+</html>

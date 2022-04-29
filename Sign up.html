@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Sign up</title>
+		</head>
+		<body>
+			<header>
+				<font color="chocolate"><marquee behavior="scroll" direction="left" scrollamount="17"><h1>Sign up</h1></marquee></font>
+
+			</header>
+				<form name="myform"  action="sucess.html" method="post" style = "background:bisque">
+				<div align="center">
+
+					<table >
+						<tr> <td> Name: </td>
+							<td><input type="text" name="name"  placeholder="name" id= "uname" ><span id="nameerror"> *</span><br/></td>
+						</tr>
+						
+						<tr><td>Date of Birth: </td>
+							<td><input type="date" name="dob" required ></td></tr>
+						<tr><td>Age :</td> <td><input type="text" name="age" required ></td></tr>
+
+						<tr><td>Gender :</td><td>
+							<label for="male">Male</label>
+							<input type="radio" id="male" name="gender" value="Male">
+
+							<label for="female">Female</label>
+							<input type="radio" id="female" name="gender" value="Female"  checked>
+							<label for="other">other</label>
+							<input type="radio" id="other" name="gender" value="other"></td></tr>
+
+						<tr><td>Address: </td>  <td><input type="address" name="address" required></td></tr> 
+
+						<tr><td>Email  ID: </td>  <td><input type="email" name="email" required></td></tr> 
+
+						<tr> <td> Pasword: </td>
+							<td><input type="text" name="name"  placeholder="password" id= "pass" ><span id="passerror"> *</span><br/></td></tr>
+
+						<tr> <td> Mobile no: </td>
+							<td><input type="text" name="name"  placeholder="number" id= "num" ><span id="numerror"> *</span><br/></td></tr>
+
+
+						<tr><td><input type="submit" value="Register" onclick="validateForm()" ></td>
+							<td><input type="reset" value="Clear"></td></tr>
+
+					</table>
+				</div>
+			</form>
+		</body>
+		</html>
